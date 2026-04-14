@@ -1,0 +1,26 @@
+# --- Core Data ---
+pandas>=2.1
+numpy>=1.26
+SQLAlchemy>=2.0        # database connection layer
+
+# --- Visualization ---
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18           # interactive charts in dashboard
+kaleido>=0.2           # static image export for plotly
+
+# --- Machine Learning ---
+scikit-learn>=1.3
+xgboost>=2.0
+shap>=0.44             # model explainability
+
+# --- Dashboard ---
+streamlit>=1.29
+
+# --- Jupyter (for exploration notebooks) ---
+jupyter>=1.0
+ipykernel>=6.26
+
+# --- Utilities ---
+python-dotenv>=1.0     # environment variable management
+requests>=2.31         # for any future API calls
